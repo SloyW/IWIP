@@ -43,8 +43,8 @@ totalTime = 0.0
 ## first coord pls setup time
 fileEntry(coordinates[0],0)
 firstAdjusted = (round(coordinates[0][0]+0.000001,6),round(coordinates[0][1]+0.000001,6))
-fileEntry(firstAdjusted,60)
-totalTime += 60
+fileEntry(firstAdjusted,30)
+totalTime += 30
 ##
 
 for index in range(1, len(coordinates)):
@@ -53,7 +53,7 @@ for index in range(1, len(coordinates)):
 
     distance = geodesic(fromCoord,toCoord).km
     totalDistance += distance
-    time =  math.ceil(distance*1000/1.25)
+    time =  math.ceil(distance*1000/2)
     totalTime += time
     fileEntry(coordinates[index], totalTime)
 ## last coord cooldown
