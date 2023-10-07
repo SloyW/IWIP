@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		240D37C32AD1C4D100126B4D /* ApiAccessInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240D37C22AD1C4D100126B4D /* ApiAccessInfo.plist */; };
+		240D37C52AD1C9BC00126B4D /* ApiAccessInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240D37C42AD1C9BC00126B4D /* ApiAccessInfo.plist */; };
+		240D37C82AD1CA3200126B4D /* IWIPSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240D37C72AD1CA3200126B4D /* IWIPSettings.swift */; };
+		240D37CB2AD1CFF600126B4D /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 240D37CA2AD1CFF600126B4D /* Supabase */; };
+		240D37CE2AD1D26F00126B4D /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240D37CD2AD1D26F00126B4D /* Supabase.swift */; };
+		240D37D02AD1E63B00126B4D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240D37CF2AD1E63B00126B4D /* LoginScreen.swift */; };
 		24A347212AD07DBE00B2CB38 /* IWIPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A347202AD07DBE00B2CB38 /* IWIPApp.swift */; };
 		24A347232AD07DBE00B2CB38 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A347222AD07DBE00B2CB38 /* MainScreen.swift */; };
 		24A347252AD07DBF00B2CB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A347242AD07DBF00B2CB38 /* Assets.xcassets */; };
@@ -15,6 +19,17 @@
 		24A347322AD07DBF00B2CB38 /* IWIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A347312AD07DBF00B2CB38 /* IWIPTests.swift */; };
 		24A3473C2AD07DBF00B2CB38 /* IWIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3473B2AD07DBF00B2CB38 /* IWIPUITests.swift */; };
 		24A3473E2AD07DBF00B2CB38 /* IWIPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3473D2AD07DBF00B2CB38 /* IWIPUITestsLaunchTests.swift */; };
+		24AF69AE2AD2984F00045638 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AF69AD2AD2984F00045638 /* ViewExtension.swift */; };
+		24CEDCCB2AD2AB7D0039704B /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEDCCA2AD2AB7D0039704B /* LogoView.swift */; };
+		24CEDCCD2AD2ABF90039704B /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEDCCC2AD2ABF90039704B /* ColorExtension.swift */; };
+		24CEDCCF2AD2B0960039704B /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEDCCE2AD2B0960039704B /* TextExtension.swift */; };
+		24CEDCD22AD2B1BF0039704B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 24CEDCD12AD2B1BF0039704B /* Localizable.xcstrings */; };
+		24CEDCD52AD2BFBD0039704B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEDCD42AD2BFBD0039704B /* LoginViewModel.swift */; };
+		24CEDCDA2AD2C05D0039704B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CEDCD92AD2C05D0039704B /* MainViewModel.swift */; };
+		24FBF1BF2AD2C7A100A264FB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FBF1BE2AD2C7A100A264FB /* UserModel.swift */; };
+		24FBF1C22AD2C7F800A264FB /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FBF1C12AD2C7F800A264FB /* DashboardScreen.swift */; };
+		24FBF1C42AD2CF2600A264FB /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FBF1C32AD2CF2600A264FB /* TableModel.swift */; };
+		24FBF1C62AD2E0DD00A264FB /* LoadingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FBF1C52AD2E0DD00A264FB /* LoadingCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,10 @@
 
 /* Begin PBXFileReference section */
 		240D37BE2AD1B61300126B4D /* stationary.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = stationary.gpx; path = python/stationary.gpx; sourceTree = "<group>"; };
-		240D37C22AD1C4D100126B4D /* ApiAccessInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ApiAccessInfo.plist; sourceTree = "<group>"; };
+		240D37C42AD1C9BC00126B4D /* ApiAccessInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ApiAccessInfo.plist; path = API/ApiAccessInfo.plist; sourceTree = SOURCE_ROOT; };
+		240D37C72AD1CA3200126B4D /* IWIPSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWIPSettings.swift; sourceTree = "<group>"; };
+		240D37CD2AD1D26F00126B4D /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
+		240D37CF2AD1E63B00126B4D /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		243982412AD1AE33002B1FEE /* route.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = route.gpx; path = python/route.gpx; sourceTree = "<group>"; };
 		24A3471D2AD07DBE00B2CB38 /* IWIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IWIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A347202AD07DBE00B2CB38 /* IWIPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWIPApp.swift; sourceTree = "<group>"; };
@@ -48,6 +66,17 @@
 		24A347372AD07DBF00B2CB38 /* IWIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IWIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A3473B2AD07DBF00B2CB38 /* IWIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWIPUITests.swift; sourceTree = "<group>"; };
 		24A3473D2AD07DBF00B2CB38 /* IWIPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWIPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24AF69AD2AD2984F00045638 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		24CEDCCA2AD2AB7D0039704B /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		24CEDCCC2AD2ABF90039704B /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		24CEDCCE2AD2B0960039704B /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
+		24CEDCD12AD2B1BF0039704B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		24CEDCD42AD2BFBD0039704B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		24CEDCD92AD2C05D0039704B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		24FBF1BE2AD2C7A100A264FB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		24FBF1C12AD2C7F800A264FB /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
+		24FBF1C32AD2CF2600A264FB /* TableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
+		24FBF1C52AD2E0DD00A264FB /* LoadingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240D37CB2AD1CFF600126B4D /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,21 +105,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		240D37C12AD1C49B00126B4D /* API */ = {
+		240D37C62AD1C9C700126B4D /* API */ = {
 			isa = PBXGroup;
 			children = (
-				240D37C22AD1C4D100126B4D /* ApiAccessInfo.plist */,
+				240D37C42AD1C9BC00126B4D /* ApiAccessInfo.plist */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		240D37CC2AD1D24300126B4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				240D37CD2AD1D26F00126B4D /* Supabase.swift */,
+				240D37C72AD1CA3200126B4D /* IWIPSettings.swift */,
+				24FBF1BE2AD2C7A100A264FB /* UserModel.swift */,
+				24FBF1C32AD2CF2600A264FB /* TableModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		24A347142AD07DBD00B2CB38 = {
 			isa = PBXGroup;
 			children = (
-				240D37C12AD1C49B00126B4D /* API */,
+				240D37C62AD1C9C700126B4D /* API */,
 				240D37BE2AD1B61300126B4D /* stationary.gpx */,
 				243982412AD1AE33002B1FEE /* route.gpx */,
 				24A3471F2AD07DBE00B2CB38 /* IWIP */,
+				24CEDCD02AD2B1910039704B /* Resources */,
 				24A347302AD07DBF00B2CB38 /* IWIPTests */,
 				24A3473A2AD07DBF00B2CB38 /* IWIPUITests */,
 				24A3471E2AD07DBE00B2CB38 /* Products */,
@@ -109,10 +151,11 @@
 		24A3471F2AD07DBE00B2CB38 /* IWIP */ = {
 			isa = PBXGroup;
 			children = (
-				24A347202AD07DBE00B2CB38 /* IWIPApp.swift */,
-				24A347222AD07DBE00B2CB38 /* MainScreen.swift */,
-				24A347242AD07DBF00B2CB38 /* Assets.xcassets */,
+				240D37CC2AD1D24300126B4D /* Model */,
+				24AF69AC2AD2984300045638 /* Extension */,
+				24CEDCD62AD2BFE80039704B /* Presentation */,
 				24A347262AD07DBF00B2CB38 /* Preview Content */,
+				24A347202AD07DBE00B2CB38 /* IWIPApp.swift */,
 			);
 			path = IWIP;
 			sourceTree = "<group>";
@@ -142,6 +185,71 @@
 			path = IWIPUITests;
 			sourceTree = "<group>";
 		};
+		24AF69AC2AD2984300045638 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				24AF69AD2AD2984F00045638 /* ViewExtension.swift */,
+				24CEDCCC2AD2ABF90039704B /* ColorExtension.swift */,
+				24CEDCCE2AD2B0960039704B /* TextExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		24CEDCD02AD2B1910039704B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24A347242AD07DBF00B2CB38 /* Assets.xcassets */,
+				24CEDCD12AD2B1BF0039704B /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		24CEDCD32AD2BFAA0039704B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				240D37CF2AD1E63B00126B4D /* LoginScreen.swift */,
+				24CEDCD42AD2BFBD0039704B /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		24CEDCD62AD2BFE80039704B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				24FBF1C02AD2C7E900A264FB /* Dashboard */,
+				24CEDCD82AD2C04E0039704B /* Main */,
+				24CEDCD72AD2C00D0039704B /* Component */,
+				24CEDCD32AD2BFAA0039704B /* Login */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		24CEDCD72AD2C00D0039704B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				24CEDCCA2AD2AB7D0039704B /* LogoView.swift */,
+				24FBF1C52AD2E0DD00A264FB /* LoadingCircle.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		24CEDCD82AD2C04E0039704B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				24A347222AD07DBE00B2CB38 /* MainScreen.swift */,
+				24CEDCD92AD2C05D0039704B /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		24FBF1C02AD2C7E900A264FB /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				24FBF1C12AD2C7F800A264FB /* DashboardScreen.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +266,9 @@
 			dependencies = (
 			);
 			name = IWIP;
+			packageProductDependencies = (
+				240D37CA2AD1CFF600126B4D /* Supabase */,
+			);
 			productName = IWIP;
 			productReference = 24A3471D2AD07DBE00B2CB38 /* IWIP.app */;
 			productType = "com.apple.product-type.application";
@@ -230,6 +341,9 @@
 				Base,
 			);
 			mainGroup = 24A347142AD07DBD00B2CB38;
+			packageReferences = (
+				240D37C92AD1CFF600126B4D /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 24A3471E2AD07DBE00B2CB38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -247,8 +361,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				24A347282AD07DBF00B2CB38 /* Preview Assets.xcassets in Resources */,
+				240D37C52AD1C9BC00126B4D /* ApiAccessInfo.plist in Resources */,
+				24CEDCD22AD2B1BF0039704B /* Localizable.xcstrings in Resources */,
 				24A347252AD07DBF00B2CB38 /* Assets.xcassets in Resources */,
-				240D37C32AD1C4D100126B4D /* ApiAccessInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +388,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24AF69AE2AD2984F00045638 /* ViewExtension.swift in Sources */,
+				24CEDCCF2AD2B0960039704B /* TextExtension.swift in Sources */,
 				24A347232AD07DBE00B2CB38 /* MainScreen.swift in Sources */,
 				24A347212AD07DBE00B2CB38 /* IWIPApp.swift in Sources */,
+				24CEDCCD2AD2ABF90039704B /* ColorExtension.swift in Sources */,
+				240D37C82AD1CA3200126B4D /* IWIPSettings.swift in Sources */,
+				24FBF1C42AD2CF2600A264FB /* TableModel.swift in Sources */,
+				24FBF1C22AD2C7F800A264FB /* DashboardScreen.swift in Sources */,
+				24CEDCCB2AD2AB7D0039704B /* LogoView.swift in Sources */,
+				240D37CE2AD1D26F00126B4D /* Supabase.swift in Sources */,
+				24FBF1C62AD2E0DD00A264FB /* LoadingCircle.swift in Sources */,
+				24CEDCD52AD2BFBD0039704B /* LoginViewModel.swift in Sources */,
+				240D37D02AD1E63B00126B4D /* LoginScreen.swift in Sources */,
+				24FBF1BF2AD2C7A100A264FB /* UserModel.swift in Sources */,
+				24CEDCDA2AD2C05D0039704B /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +730,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		240D37C92AD1CFF600126B4D /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		240D37CA2AD1CFF600126B4D /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 240D37C92AD1CFF600126B4D /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24A347152AD07DBD00B2CB38 /* Project object */;
 }

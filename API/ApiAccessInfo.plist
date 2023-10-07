@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DatabankKey</key>
+	<string>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRpeHlvZmJ4eWNseWhqeHJkc2h1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTY2OTc0MDQsImV4cCI6MjAxMjI3MzQwNH0.oznZXmeFedIlWFUiRseCYOHBi-rezadsRqJVctNUlh8</string>
+	<key>DatabankURL</key>
+	<string>https://tixyofbxyclyhjxrdshu.supabase.co</string>
+</dict>
+</plist>
