@@ -74,7 +74,7 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
-         identifier = "../../python/stationary.gpx"
+         identifier = "../../python/route.gpx"
          referenceType = "0">
       </LocationScenarioReference>
    </LaunchAction>

@@ -1,6 +1,26 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "?" : {
+
+    },
+    "%lld" : {
+
+    },
+    "+99" : {
+
+    },
+    "app_init_failed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong. Please restart the App."
+          }
+        }
+      }
+    },
     "email" : {
       "localizations" : {
         "en" : {
@@ -17,6 +37,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Getting User Data"
+          }
+        }
+      }
+    },
+    "groceries" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Groceries"
           }
         }
       }
@@ -65,9 +95,6 @@
           }
         }
       }
-    },
-    "Something went wrong, restart the app." : {
-
     }
   },
   "version" : "1.0"

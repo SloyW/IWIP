@@ -25,12 +25,13 @@ struct DashboardScreen: View {
                         }.frame(maxWidth: 35, maxHeight: 35)
                     }.roundedBackgroud(.negativeColor())
                 }.maxSize(.horizontal)
+                GroceriesWidget()
                 Spacer()
             }.maxSize()
         case false:
             HStack(spacing: 10) {
                 Text("getting_user").fontSize(35).foregroundColor(.fontColor())
-                LoadingCircle()
+                LoadingCircle().frame(width: 35, height: 35)
             }.task {
                 await mainVM.getUser()
             }

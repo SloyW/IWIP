@@ -38,7 +38,7 @@ struct LoginScreen: View {
                 Text("login_failure")
             }
             if loginVM.status == .loggingIn {
-                LoadingCircle()
+                LoadingCircle().frame(width: 50, height: 50)
             }
             
             Spacer()

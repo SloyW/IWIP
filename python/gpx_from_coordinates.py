@@ -53,7 +53,7 @@ for index in range(1, len(coordinates)):
 
     distance = geodesic(fromCoord,toCoord).km
     totalDistance += distance
-    time =  math.ceil(distance*1000/2)
+    time =  math.ceil(distance*1000/3)
     totalTime += time
     fileEntry(coordinates[index], totalTime)
 ## last coord cooldown

@@ -7,15 +7,17 @@ struct MainScreen: View {
         ZStack() {
             switch (mainVM.status) {
             case .loading:
-                LoadingCircle().task {
+                LoadingCircle()
+                    .frame(width: 35, height: 35)
+                    .task {
                     await mainVM.initApp()
                 }
             case .failure:
-                Text("Something went wrong, restart the app.")
+                Text("app_init_failed")
             case .login:
                 LoginScreen().environmentObject(mainVM)
             case .authorized:
-                DashboardScreen().environmentObject(mainVM)
+                IWIPNavigation().environmentObject(mainVM)
             }
         }.maxSize().padding(20)
     }
