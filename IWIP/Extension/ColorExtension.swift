@@ -1,6 +1,7 @@
 import SwiftUI
 
 extension Color {
+    
     static func primary() -> Color {
         Color("MainColor", bundle: Bundle.main)
     }

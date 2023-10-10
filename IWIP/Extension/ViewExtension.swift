@@ -1,6 +1,7 @@
 import SwiftUI
 
 extension View {
+    
     func maxSize(_ direction: ViewMaxSizeDirection = .all) -> some View {
         switch direction {
         case .all:

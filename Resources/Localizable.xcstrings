@@ -21,6 +21,26 @@
         }
       }
     },
+    "delete_item" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        }
+      }
+    },
+    "delete_warning_grocery" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure you want to delete this Grocery?"
+          }
+        }
+      }
+    },
     "email" : {
       "localizations" : {
         "en" : {
@@ -75,6 +95,17 @@
         }
       }
     },
+    "no_results" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No results"
+          }
+        }
+      }
+    },
     "password" : {
       "localizations" : {
         "en" : {
@@ -92,6 +123,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please, enter your credentials"
+          }
+        }
+      }
+    },
+    "try_again" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try again"
           }
         }
       }

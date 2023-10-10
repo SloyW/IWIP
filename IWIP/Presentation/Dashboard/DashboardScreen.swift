@@ -14,12 +14,10 @@ struct DashboardScreen: View {
                     Spacer()
                     Button(action: { mainVM.logOut() }) {
                         ZStack() {
-                            Image(systemName: "person.crop.circle")
-                                .resizable()
+                            SystemImage(key: "account")
                                 .scaledToFit()
                                 .foregroundColor(.fontColor())
-                            Image(systemName: "x.circle")
-                                .resizable()
+                            SystemImage(key: "cancel")
                                 .scaledToFit()
                                 .foregroundColor(.negativeColor()).opacity(0.5)
                         }.frame(maxWidth: 35, maxHeight: 35)
